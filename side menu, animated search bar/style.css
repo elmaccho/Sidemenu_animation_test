@@ -109,11 +109,12 @@ body{
     align-items: center;    
     justify-items: center;
     margin-top: 36vh;
+    padding-left: 2%;
     width: 100%;
 }
 .search-box{
     height: 100px;
-    width: 30%;
+    width: 50%;
     display:none;
     justify-content: center;
     align-items: center;    
@@ -147,6 +148,7 @@ body{
     border-radius: 30px;
     border:none;
     text-indent: 20px;
+    width: 40vh;
 }
 .search-box ion-icon{
     cursor: pointer;
@@ -230,4 +232,25 @@ footer span{
     margin: 0 5px;
     position: relative;
     top: 2px;
+}
+
+@media screen and (max-width: 767px) {
+    .search-box input{
+        height: 50px;
+        font-size: 20px;
+        border-radius: 30px;
+        border:none;
+        text-indent: 20px;
+        width: 80%;
+    }
+    .search-box ion-icon{
+        display: none;
+    }
+    .search-box{
+        height: 100px;
+        width: 100%;
+    }
+    .side_menu{
+        width: 30%;
+    }
 }
