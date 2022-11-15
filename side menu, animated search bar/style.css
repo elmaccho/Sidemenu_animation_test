@@ -109,7 +109,6 @@ body{
     align-items: center;    
     justify-items: center;
     margin-top: 36vh;
-    padding-left: 2%;
     width: 100%;
 }
 .search-box{
@@ -129,7 +128,6 @@ body{
     justify-content: center;
     align-items: center;    
     justify-items: center;
-    background-color: red;
 }
 .search-text p{
     font-size: 70px;
